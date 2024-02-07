@@ -1,0 +1,74 @@
+JVM:- Java Virtual Machine
+
+Java is distributed:- 
+
+RMI:- Remote Method Invocation
+
+EJB:- Entreprise Jakarta Beans
+
+RPC:- Remote Procedure Call
+
+String[] args or String args[] or String []args we can write in these three manners
+
+If we use small class and it is considered as the keyword and if we use Class then it will be used as subpackages.
+
+Package in java is a folder in which classes, modules are defined. We can import it with the help of import keyword using import and package name. 
+example java.lang.* java.util.*;
+
+definition of the package:- Package is a placeholder or a folder that contain all the pre defined methods interface and class structures in it. top most is called as java.
+there are three in it 
+lang, util and awt.
+AWT:- Abstract window toolkit.
+
+Util contains :-
+Scanner, Array List , Map class
+
+lang contains :-
+System and String
+
+in binary we write prefix 0b
+
+In octal we write prefix 0
+
+in hexaDecimal we write prefix 0X
+
+subscript 
+
+To convert any number system to decimal number system we will use individual digit and multiply by base value with incremented power from LSB to MSB and sum all the terms.THis is SOP sum of the products.
+From decimal to any other representation we wil divide input number by resultant base value and we will take care of quotient and remainder part.
+
+To convert any number into decimal we just multiply the unit digits 1 by 1 with their base raised power to their position. 
+
+There can be multiple classes within a package.
+
+Access Specifiers:-
+
+Default:- Default Access is only within the package.If we do not speciify access mode by default mode is default in the java.
+Private:- Access is restricted only within the class cannot be accessed from outside the class.
+Protected:- Protected can be accessed from other class but the classes should be inherited. The access level of protected modifier is within the package and outside the package through child class.
+If you dont make child class it cannot be accessed from outside the package.
+public:- Access can be done everywhere.
+
+
+L2r r2l
+Operators:- Postfix Prefix
+postfix incr decr unary:-l2r
+prefix incr decr unary :- r2l 
+airthmatic operator * / % + - :- l2r
+ls rs:- l2r
+relational < = <= >= ==:- l2r
+bitwise & | ^ :-l2r
+logical && :l2r
+logical ||
+logical !
+ternary
+assignment operator = :- l2r
+
+
+
+
+
+
+
+
+
