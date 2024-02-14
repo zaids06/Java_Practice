@@ -64,10 +64,18 @@ logical !
 ternary
 assignment operator = :- l2r
 
+HashCode is use to get the reference work with .hashCode(); method
 
+Getter and setter methods are called as accessor methods.
+Getter method is used to get the value of the class object and setter method is use to set the value for the class instance variable.
 
+constructor
+default cons
+parameterized with 2 
+parameterized with 1
+String has 32 bytes by default capacity 
 
-
+String class object value is immutable.
 
 
 
