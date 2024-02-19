@@ -77,6 +77,11 @@ String has 32 bytes by default capacity
 
 String class object value is immutable.
 
-
-
-
+Intern method will create copy of the object
+different methods of strings
+ignore case
+start with
+lowerCase
+equals
+equalsIgnoreCase
+endswith
