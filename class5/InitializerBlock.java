@@ -1,7 +1,7 @@
 package class5;
 
 public class InitializerBlock {
-    public int x;
+    private static int x;
     {
         System.out.println("This is the first initializer block");
         x=10;
@@ -9,7 +9,7 @@ public class InitializerBlock {
     InitializerBlock(){
         System.out.println("Default constructor "+ x);
     }
-    {
+    static {
         System.out.println("This is second initializer block");
         x=20;
     }
