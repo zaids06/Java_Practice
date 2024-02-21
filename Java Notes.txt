@@ -90,3 +90,6 @@ endswith
 
 Initializer Block is use to initialize class instance variables, JVM compile initilizer block earlier after it invoke constructor.
 Two types of initializer block are static
+
+
+Base class is always extend by object class.
